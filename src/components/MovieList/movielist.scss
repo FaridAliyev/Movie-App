@@ -1,0 +1,11 @@
+@import '../../common/colors';
+
+#movieList{
+    margin: 20px 0;
+    .container{
+        h2{
+            color: $font-secondary;
+            margin: 20px 0;
+        }
+    }
+}

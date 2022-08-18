@@ -1,0 +1,19 @@
+@import "../../common/colors";
+
+footer{
+    background-color: $secondary-color;
+    padding: 16px;
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: $font-primary;
+        h2{
+            font-size: 18px;
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+}
