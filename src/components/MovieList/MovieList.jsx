@@ -6,8 +6,7 @@ import './movielist.scss'
 function MovieList() {
 
   const { movies } = useSelector(state => state.movie);
-  const { shows } = useSelector(state => state.movie)
-  console.log(movies);
+  const { shows } = useSelector(state => state.movie);
 
   return (
     <div id="movieList">

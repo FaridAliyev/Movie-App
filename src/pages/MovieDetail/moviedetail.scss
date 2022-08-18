@@ -1,0 +1,51 @@
+@import '../../common/colors';
+
+#movie-detail{
+    padding: 50px 0;
+    .container{
+        .row{
+            .details{
+                .title{
+                    color: $font-primary;
+                    font-size: 35px;
+                    font-weight: 400;
+                }
+                .stats{
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 30px;
+                    .stat{
+                        p{
+                            color: $font-secondary;
+                        }
+                    }
+                }
+                .plot{
+                    margin-top: 30px;
+                    color: $font-primary;
+                    line-height: 1.6;
+                }
+                .infos{
+                    margin-top: 20px;
+                    .info{
+                        margin-top: 15px;
+                        display: flex;
+                        .info-prop{
+                            color: $font-primary;
+                            min-width: 100px;
+                        }
+                        .info-value{
+                            color: $font-secondary;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            .poster{
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
